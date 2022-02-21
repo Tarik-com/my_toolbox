@@ -1,4 +1,4 @@
-def plot_sns(df,row,col,fontsize=10,type_of_plot="lineplot",size=(10,10),names=df.columns,step=1):
+def plot_sns(row,col,fontsize=10,df=df,type_of_plot="lineplot",size=(10,10),names=df.columns,step=1):
     import seaborn as sns
     import matplotlib.pyplot as plt
     import numpy as np
