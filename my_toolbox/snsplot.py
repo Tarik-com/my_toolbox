@@ -1,7 +1,9 @@
-def plot_sns(row,col,fontsize=10,df=df,type_of_plot="lineplot",size=(10,10),names=df.columns,step=1):
-    import seaborn as sns
-    import matplotlib.pyplot as plt
-    import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+
+def plot_sns(row,col,fontsize=10,df,type_of_plot="lineplot",size=(10,10),names=df.columns,step=1):
+
     fig,ax=plt.subplots(nrows=row,ncols=col,figsize=(size))
     ax = ax.ravel()
 
